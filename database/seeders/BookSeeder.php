@@ -14,31 +14,31 @@ class BookSeeder extends Seeder
     public function run(): void
     {
         Book::create([
-            'title' => 'Mobile Suit Gundam SEED Freedom',
-            'description' => 'Novel tentang perang antara 2 faksi di dunia waralaba gundam',
+            'title' => 'Chronicles of Solaris',
+            'description' => 'Sebuah kisah epik tentang konflik antar planet dan perjuangan seorang pilot muda dalam menyelamatkan galaksi.',
             'price' => '120000',
             'stock' => '10',
-            'cover_photo' => 'seedfreedom.png',
+            'cover_photo' => 'solaris.png',
             'genre_id' => '1',
             'author_id' => '1',
         ]);
-
+        
         Book::create([
-            'title' => 'Marmut Merah Jambu',
-            'description' => 'Novel tentang kisah cinta raditya dika yang dia alami dahulu',
+            'title' => 'Senja di Ujung Jalan',
+            'description' => 'Novel romantis yang menggambarkan perjalanan cinta dan kehilangan di tengah hiruk-pikuk kota Jakarta.',
             'price' => '150000',
             'stock' => '20',
-            'cover_photo' => 'mmj.png',
+            'cover_photo' => 'senja.png',
             'genre_id' => '2',
             'author_id' => '2',
         ]);
-
+        
         Book::create([
-            'title' => 'One Piece',
-            'description' => 'Manga tentang Petualangan karakter utama Luffy beserta teman-temannya di dunia bajak laut',
+            'title' => 'Legenda Laut Biru',
+            'description' => 'Petualangan seru seorang kapten muda dan kru kapal bajak laut dalam mencari harta karun legendaris.',
             'price' => '60000',
             'stock' => '15',
-            'cover_photo' => 'onepiece.png',
+            'cover_photo' => 'lautbiru.png',
             'genre_id' => '3',
             'author_id' => '3',
         ]);
