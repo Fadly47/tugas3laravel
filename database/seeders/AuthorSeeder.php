@@ -14,9 +14,9 @@ class AuthorSeeder extends Seeder
     public function run(): void
     {
         Author::create([
-            'name' => 'Chiaki Morosawa',
-            'photo' => 'chiaki.jpg',
-            'bio' => 'Penulis skenario dan novelis Jepang, terkenal atas karyanya pada seri Mobile Suit Gundam SEED'
+            'name' => 'Masashi Kishimoto',
+            'photo' => 'MK.jpg',
+            'bio' => 'Mangaka yang dikenal dengan karya legendarisnya dalam menciptakan seri Naruto'
         ]);
         
         Author::create([
@@ -26,9 +26,9 @@ class AuthorSeeder extends Seeder
         ]);
 
         Author::create([
-            'name' => 'Satoshi Tajiri',
-            'photo' => 'satoshi.jpg',
-            'bio' => 'Penulis Jepang, pencipta dari waralaba ternama Pokemon'
+            'name' => 'Andrzej Sapkowski',
+            'photo' => 'andrzej.jpg',
+            'bio' => 'Pengarang yang dikenal dengan karyanya dalam menciptakan serial the witcher yang kemudian diadaptasi menjadi serial game'
         ]);
     }
 }
